@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "host": "app.example.com", "container": "1" },
+    { "host": "api.example.com", "container": "2" }
+  ]
+}

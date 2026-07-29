@@ -1,0 +1,5 @@
+# Plopi Sandbox — 정적 공인 IP (DHCP 사용 금지)
+PUBLIC_IP=0.0.0.0
+PREFIX=24
+GATEWAY=0.0.0.0
+DNS=1.1.1.1

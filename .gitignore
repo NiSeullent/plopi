@@ -1,0 +1,10 @@
+node_modules
+.next
+.data
+dist
+*.log
+.env*
+.DS_Store
+web/.data
+packages/sandbox/dist
+*.tar.gz

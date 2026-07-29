@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 40" fill="none" role="img" aria-label="\< Plopi">
+  <rect x="2" y="2" width="36" height="36" rx="9" fill="#6B7CFF"/>
+  <rect x="8" y="8" width="24" height="12" rx="3.5" fill="#EEF0FF"/>
+  <circle cx="26" cy="14" r="3.2" fill="#6B7CFF"/>
+  <rect x="9.5" y="25" width="14" height="2.8" rx="1.4" fill="#EEF0FF" opacity="0.9"/>
+  <rect x="9.5" y="30.5" width="9" height="2.2" rx="1.1" fill="#EEF0FF" opacity="0.55"/>
+  <text x="48" y="27" font-family="Pretendard, 'Noto Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0A0A0A" letter-spacing="-0.04em">plopi</text>
+</svg>

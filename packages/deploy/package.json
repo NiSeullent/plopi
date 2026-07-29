@@ -1,0 +1,37 @@
+{
+  "name": "@plopi/deploy",
+  "version": "0.1.0",
+  "description": "Plopi 배포 툴킷 — OAuth2로 계정 연동 후 웹호스팅/컨테이너 배포",
+  "bin": {
+    "plopi": "./bin/plopi.js",
+    "plopi-deploy": "./bin/plopi.js"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node ./bin/plopi.js",
+    "prepublishOnly": "node -e \"console.log('ok')\""
+  },
+  "keywords": [
+    "plopi",
+    "deploy",
+    "hosting",
+    "docker",
+    "swarm"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plopi/deploy.git"
+  },
+  "homepage": "https://pf.nyase.kr",
+  "dependencies": {}
+}

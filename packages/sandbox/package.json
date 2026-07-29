@@ -1,0 +1,9 @@
+{
+  "name": "@plopi/sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plopi Sandbox OS build toolkit",
+  "scripts": {
+    "build": "bash ./scripts/build-sandbox.sh"
+  }
+}

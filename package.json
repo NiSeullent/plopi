@@ -1,0 +1,24 @@
+{
+  "name": "plopi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "플로피(Plopi) — 전국 호스팅 가격비교 · 퀵주문 · 배포 툴킷",
+  "workspaces": [
+    "web",
+    "packages/deploy",
+    "packages/sandbox",
+    "packages/shared"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=web",
+    "build": "npm run build --workspace=web",
+    "start": "npm run start --workspace=web",
+    "deploy:cli": "node packages/deploy/bin/plopi.js",
+    "sandbox:build": "bash packages/sandbox/scripts/build-sandbox.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plopi/plopi.git"
+  },
+  "license": "MIT"
+}
