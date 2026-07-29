@@ -30,6 +30,23 @@ npm run sandbox:build
 | `/build` | 홈페이지 제작 |
 | `/docs` | 정책·CLI 문서 |
 
+## GitHub
+
+> `plopi` 는 GitHub **사용자명**으로 이미 선점되어 있어 동명 조직을 만들 수 없습니다.
+> 현재 코드는 `NiSeullent` 계정에 올려 두었습니다. 조직이 필요하면 `plopi-kr` 등 대체 이름을 만든 뒤 transfer 하면 됩니다.
+
+| Repo | URL |
+|------|-----|
+| 모노레포 | https://github.com/NiSeullent/plopi |
+| 배포 CLI | https://github.com/NiSeullent/plopi-deploy |
+| Sandbox OS | https://github.com/NiSeullent/plopi-sandbox |
+
+## 로컬 실행
+
+```bash
+cd web && npm run dev -- -p 3020
+```
+
 ## 라이선스
 
 MIT
